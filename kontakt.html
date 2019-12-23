@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Füllen Sie Ihr Aquarium wieder mit leben - kaufen Sie bei FantastFisch!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <style>
+
+  .navbar-nav .nav-item.active .nav-link,
+  .navbar-nav .nav-item:hover .nav-link {
+  color: #ff9e00;
+  }
+
+  hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  border-color: #267887;
+  } 
+
+  .page-footer{
+  background-color:#267887;
+  border-color: #267887;
+  color: #FFFFFF;
+
+  }
+  </style>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="shop.html">Unsere Angebote</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="kontakt.html">Kontakt</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+<div class="container" style="margin-top:30px">
+    <div class="row">
+      <div class="col-sm-11">
+        <h2 style="color:#267887; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Kontaktformular</h2><hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <p><form>
+            <div class="form-group row">
+                <label for="inputVorname" class="col-sm-2 col-form-label">Vorname<br>Nachname</label>
+                <div class="col-sm-10">
+                    <input type="bname" class="form-control" id="bname" placeholder="Vorname/Nachname">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Passwort</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Passwort" required pattern="67kgYx@3rt"
+					title="Das Passwort lautet: &quot;67kgYx@3rt&quot;ohne Anführungszeichen.">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputEmail" class="col-sm-2 col-form-label">Strasse/Nr. </label>
+                <div class="col-sm-10">
+                    <input type="street" class="form-control" id="street" placeholder="Strasse/Nr.">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Mitteilung</label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Ihre Mitteilung..."></textarea>
+                </div>
+	<button type="reset">Felder leeren</button>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-10 offset-sm-2">
+                    <button type="submit" class="btn btn-primary" style="background-color: #267887; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; Color: #FFFFFF" onclick="myFunction()">Abschicken</button>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+                </div>
+            </div>
+        </form></p>
+      </div>
+      <div class="col-sm-1">
+      <p></p>
+      </div>
+      <div class="col-sm-4">
+          <p style="color:#267887; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Fantastfisch Fischhandel AG<br>
+Alleestrasse 46 <br>
+8590 Romanshorn <br>
+Telefon 071 463 42 42 <br>
+info@fantastfisch.ch</p>
+      </div>
+    </div>
+  </div>
+<footer class="page-footer font-small blue">
+    <div class="footer-copyright text-center py-3">Füllen Sie Ihr Aquarium wieder mit leben - kaufen Sie bei FantastFisch!</div>
+</footer>
+
+<script>
+    function myFunction() {
+      alert("Vielen Dank für Ihre Anfrage. Sie wird so rasch als möglich bearbeitet.");
+    }
+</script>
+
+</body>
+</html>
